@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post-it com Visualização</title>
+    <link rel="stylesheet" href="Postit.css">
+</head>
+<body>
+    <h1 id="titulopag">POST-IT DOS MANOS</h1>
+    <div id="main"> 
+        <button class="JButton" type="button">CRIAR UM POST-IT</button>
+        <div id="cont"> 
+            <p>Painel de Controle</p>
+            <hr>
+            <p>Total: <span id="total">0</span></p>
+            <p>Ativos: <span id="ativos">0</span></p>
+            <p>Minimizados: <span id="minimizados">0</span></p>
+        </div>
+    </div>
+
+    <div id="creditos">Criado por: Levi Viana, João Manuel, Matheus Pietro e Cauê Campos</div>
+
+    <div id="postitContainer"></div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Conteúdo do Post-it</h2>
+            <p id="modalText"></p>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div id="minimizedContainer"></div>
+    </footer>
+
+    <script src="Postit.js"></script>
+</body>
+</html>

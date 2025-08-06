@@ -1,0 +1,200 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: #540ebd;
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+#titulopag {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    color: #540ebd; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+    letter-spacing: 2px;
+    font-weight: bold; 
+    text-align: center;
+    padding: 20px;
+}
+
+#cont.p {
+    text-align: left;
+}
+
+#cont {
+    width: 150px;
+    height: 180px; 
+    background-color: rgb(43, 43, 43); 
+    border: 2px solid black;
+    padding: 7px; 
+    box-sizing: border-box;
+    position: relative; 
+    top: -100px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+.JButton {
+    background-color: rgb(82, 8, 210); 
+    border: 2px solid black;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url('img/bloodborne2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    color: white;
+}
+
+#postitContainer {
+    margin-top: 20px;
+}
+
+.postit {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(119, 0, 255);
+    padding: 5px;
+    margin: 10px;
+    position: relative;
+    float: left;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+}
+
+.minimize-btn {
+    position: absolute;
+    top: 5px;
+    right: 35px;
+    cursor: pointer;
+    font-weight: bold;
+    background: blue; 
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 3px; 
+}
+
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+textarea {
+    width: calc(100% - 20px); 
+    height: calc(100% - 40px); 
+    border: none;
+    background-color: black;
+    resize: none;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+#footer {
+    position: fixed; 
+    bottom: 0; 
+    left: 0;
+    width: 100%; 
+    height: 60px; 
+    background-color: rgba(0, 0, 0, 0.9); 
+    text-align: center; 
+    padding: 10px 0; 
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); 
+    overflow-x: auto; 
+}
+
+.minimized-postit {
+    background-color: #000000; 
+    border: 1px solid #5910cd;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.minimized-postit:hover {
+    background-color: #d0d0d0;
+}
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.modal-content {
+    background-color: rgb(0, 0, 0);
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    max-height: 70vh; 
+    overflow-y: auto; 
+}
+
+#modalText {
+    white-space: pre-wrap; 
+    word-wrap: break-word; 
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: rgb(120, 14, 186);
+    overflow-wrap: break-word; 
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#creditos {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 10px; 
+    color: rgba(255, 255, 255, 0.3); 
+    font-family: 'Arial', sans-serif;
+    z-index: 9999; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+    cursor: default;
+}
